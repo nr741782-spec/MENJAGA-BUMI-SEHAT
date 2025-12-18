@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoStore 2025 | Solusi Lingkungan Sehat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="cdnjs.cloudflare.com" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="logo">Eco<span>Store</span></div>
+        <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Pilih Produk, <br>Selamatkan Lingkungan</h1>
+            <p>Koleksi alat kesehatan lingkungan terbaik tahun 2025 untuk udara, air, dan bumi yang lebih bersih.</p>
+            <a href="#katalog" class="btn-main">Lihat Katalog</a>
+        </div>
+    </header>
+
+    <!-- Katalog Produk -->
+    <section id="katalog" class="products">
+        <h2 class="section-title">Produk Unggulan 2025</h2>
+        <div class="product-grid">
+            <!-- Produk 1 -->
+            <div class="card">
+                <div class="badge">Terlaris</div>
+                <img src="images.unsplash.com" alt="Air Purifier">
+                <div class="card-body">
+                    <h3>HEPA Smart Air Purifier</h3>
+                    <p>Filter udara cerdas untuk membasmi polusi PM2.5 di rumah.</p>
+                    <div class="price">Rp 1.850.000</div>
+                    <button class="btn-add" onclick="addToCart()">Tambah ke Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="card">
+                <img src="images.unsplash.com" alt="Bamboo Kit">
+                <div class="card-body">
+                    <h3>Eco Bamboo Hygiene Kit</h3>
+                    <p>Set sikat gigi dan alat makan bambu biodegradable.</p>
+                    <div class="price">Rp 95.000</div>
+                    <button class="btn-add" onclick="addToCart()">Tambah ke Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="card">
+                <img src="images.unsplash.com" alt="Eco Soap">
+                <div class="card-body">
+                    <h3>Organic Multi-Cleaner</h3>
+                    <p>Cairan pembersih alami tanpa zat kimia berbahaya.</p>
+                    <div class="price">Rp 45.000</div>
+                    <button class="btn-add" onclick="addToCart()">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EcoStore Indonesia - Inovasi untuk Masa Depan Hijau</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
